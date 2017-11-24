@@ -23,6 +23,7 @@ public class Game {
     misses = "";
   }
   
+  // Normalize the input
   private char normalizeGuess(char letter){
    if(! Character.isLetter(letter)){
     throw new IllegalArgumentException("A letter is required!"); 
