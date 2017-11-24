@@ -7,6 +7,8 @@ public class Game {
   public static final int MAX_MISSES = 7;
   private int BEST_SCORE = 5;
   
+  // Sets the name of player;
+
   public void setPlayerName(String playerName){
    this.playerName = playerName;  
   }
