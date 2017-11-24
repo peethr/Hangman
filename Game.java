@@ -53,7 +53,7 @@ public class Game {
     }
     return isHit;   
   }
-  
+  // Returns current progress
   public String getCurrentProgress(){
    String progress = "";
     for (char letter : answer.toCharArray()){
